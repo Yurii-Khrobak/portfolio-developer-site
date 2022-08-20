@@ -1,0 +1,44 @@
+.scills {
+	margin-top: 102px;
+	margin-bottom: 101px;
+}
+
+.scills__row {
+	display: flex;
+	column-gap: 150px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.scills__img {
+	max-width: 555px;
+}
+
+.scills__main {
+	&--title {
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 38px;
+		color: $black;
+		margin-bottom: 50px;
+	}
+}
+
+.scills__main--progresbar-item {
+	margin-bottom: 20px;
+}
+
+.progresbar {
+	width: 445px;
+	height: 4px;
+
+	-webkit-appearance: none
+}
+
+::-webkit-progress-bar {
+	background-color: #C4C4C4;
+}
+
+::-webkit-progress-value {
+	background: #34547A;
+}

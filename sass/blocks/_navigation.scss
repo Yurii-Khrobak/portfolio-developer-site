@@ -1,0 +1,30 @@
+.header {
+	background: #EEEFF1;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 57px;
+}
+
+.logo {
+	color: $accent;
+	font-family: 'Revalia', cursive;
+	font-size: 48px;
+	line-height: 60px;
+}
+
+.navigation {
+	display: flex;
+	column-gap: 42px;
+	color: $black;
+	letter-spacing: 0.1em;
+}
+
+.active {
+	color: $accent;
+	font-weight: 500;
+}

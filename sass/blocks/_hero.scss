@@ -1,0 +1,25 @@
+.hero {
+	display: flex;
+	align-items: center;
+	margin-top: 140px;
+	column-gap: 130px;
+	padding-bottom: 146px;
+}
+
+.hero__img {
+	margin-left: 90px;
+}
+
+.hero__main {
+	&--title {
+		font-weight: 500;
+		font-size: 48px;
+		line-height: 79px;
+		color: #000000;
+		margin-bottom: 60px;
+	}
+	
+	& p {
+		margin-bottom: 60px;
+	}
+}
