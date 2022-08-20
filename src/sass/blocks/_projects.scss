@@ -1,0 +1,21 @@
+.projects {
+	color: #ffffff;
+	background: $accent;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.projects__list {
+	display: flex;
+	column-gap: 119px;
+}
+.projects-item {
+	display: flex;
+	column-gap: 20px;
+	
+	& span {
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 25px;
+	}
+}

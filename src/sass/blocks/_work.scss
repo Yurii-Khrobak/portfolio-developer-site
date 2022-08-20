@@ -1,0 +1,45 @@
+.work {
+	background: #EEEFF1;
+}
+
+.work__column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.work__main {
+	max-width: 540px;
+	padding-top: 100px;
+
+	&--title {
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 38px;
+		color: $black;
+		margin-bottom: 50px;
+	}
+
+	& p {
+		margin-bottom: 57px;
+	}
+}
+
+.work__img {
+	position: relative;
+	padding-bottom: 100px;
+
+	&::before {
+		content: '';
+		width: 100px;
+		height: 100px;
+
+		background: url('./../img/icons/play_button.svg');
+
+		position: absolute;
+
+		top: 35%;
+		right: 45%;
+	}
+}

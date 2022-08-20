@@ -1,0 +1,29 @@
+.footer {
+	background: $accent;
+	color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__socials {
+	display: flex;
+	column-gap: 21.88px;
+}
+
+.footer__corp {
+	&--name {
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 25px;
+	}
+
+	&--main {
+		font-size: 13px;
+		line-height: 21px;
+	}
+}
